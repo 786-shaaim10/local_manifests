@@ -48,7 +48,7 @@
            fetch="https://github.com" />
 -->
 
-
+  <remove-project path="packages/apps/ParanoidSense/" />
   <remove-project path="vendor/qcom/opensource/libfmjni"/>
 
 
