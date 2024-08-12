@@ -10,40 +10,7 @@
            fetch="https://github.com/Gtajisan"
            revision="a14/master" />
   
-  <remote  name="los"
-           fetch="https://github.com/LineageOS"
-           revision="lineage-21.0" />
-  <remote  name="crdroid-gitlab"
-           fetch="https://gitlab.com/"
-           sync-c="true"
-           sync-j="4"
-           revision="refs/heads/14.0" />
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com"
-           revision="refs/tags/android-14.0.0_r55" />
-
-  <remote  name="crdroid"
-           fetch="https://github.com/"
-           sync-c="true"
-           sync-j="4"
-           revision="refs/heads/14.0" />
-
-  <remote  name="tavukkdoner"
-           fetch="https://github.com/tavukkdoner"
-           revision="lineage-21" />
-
-    <remote  name="togofire"
-           fetch="https://github.com/TogoFire"
-           revision="v4a" />
-  
-  <remote  name="crdroid-gitlab"
-           fetch="https://gitlab.com/"
-           sync-c="true"
-           sync-j="4"
-           revision="refs/heads/14.0" />
-  
-  <!--
+    <!--
   <remote  name="github"
            fetch="https://github.com" />
 -->
