@@ -139,5 +139,5 @@
   <!-- Google Gallery Go -->
   <project path="packages/apps/GalleryGo" name="android_packages_apps_GalleryGo" remote="Gtajisan" revision="main" />
   
-</manifest>
+
 </manifest>
