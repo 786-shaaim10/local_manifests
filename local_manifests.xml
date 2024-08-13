@@ -99,5 +99,5 @@
   <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="Gtajisan" revision="v4a" />
   
 <!-- Lawnchair -->
-  <project path="vendor/lawnchair" name="android_vendor_lawnchair" remote="phantom" revision="uvite" />
+  <project path="vendor/lawnchair" name="android_vendor_lawnchair" remote="Gtajisan" revision="uvite" />
 </manifest>
