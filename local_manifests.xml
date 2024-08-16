@@ -19,7 +19,7 @@
   <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" remote="Gtajisan" revision="lineage-21.0" />
   
  <!-- Common -->
-  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="Gtajisan" revision="a14/master"/>
+  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common_old"     groups="device" remote="Gtajisan" revision="a14/master"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a11/master"/>
 
@@ -102,6 +102,4 @@
 <!-- v4x -->
   <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="Gtajisan" revision="v4a" />
   
-<!-- Lawnchair -->
-  <project path="vendor/lawnchair" name="android_vendor_lawnchair" remote="Gtajisan" revision="uvite" />
-</manifest>
+
