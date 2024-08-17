@@ -3,14 +3,16 @@
   <remote  name="mi-thorium"
            fetch="https://github.com/Mi-Thorium"
            revision="a13/master" />
-  <remote  name="phantom"
-           fetch="https://github.com/PhantomEnigma"
+  <remote  name="Gtajisan"
+           fetch="https://github.com/Gtajisan"
            revision="a13/master" />
   <!--github-->
   <remote  name="github"
            fetch="https://github.com" />
- <!-- Common -->
-  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="phantom"/>
+
+  
+  <!-- Common -->
+  <project path="device/xiaomi/mithorium-common" name="Mi-Thorium-android_device_xiaomi_mithorium-common_los"     groups="device" remote="Gtajisan" revision="a13/master"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a11/master"/>
 
@@ -87,7 +89,6 @@
   <project path="kernel/xiaomi/mithorium-4.19/module/prima" name="vendor_qcom_opensource_wlan_prima" groups="module" revision="wlan/LA.UM.9.6.4/mithorium/master"  remote="mi-thorium" >
     <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/drivers/staging/prima" />
   </project>
-  
 <!-- v4x -->
   <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="Gtajisan" revision="v4a" />
 
