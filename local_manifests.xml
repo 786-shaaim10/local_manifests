@@ -6,7 +6,7 @@
 
                                    
  <!--Tree -->
- <project path="android_device_motorola_rhodep" name="android_device_motorola_rhodei" remote="Gtajisan" revision="Ameen" />
+ <project path="twrp_android_device_tecno_TECNO-KI7" name="device/tecno/TECNO-KI7" remote="Gtajisan" revision="main" />
 
  
 </manifest>
