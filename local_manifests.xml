@@ -2,11 +2,15 @@
 <manifest>
   <remote  name="Gtajisan"
            fetch="https://github.com/Gtajisan"
-           revision="Ameen" />
+           revision="android-12.1" />
+
 
                                    
  <!--Tree -->
- <project path="twrp_android_device_tecno_TECNO-KI7" name="device/tecno/TECNO-KI7" remote="Gtajisan" revision="Main" />
+ <project path="device/xiaomi/mi439" name="twrp_device_xiaomi_mi439" remote="Gtajisan" revision="android-12.1" />
+
+ <!--kernel -->
+ <project path="device/xiaomi/mi439" name="twrp_device_xiaomi_mi439" remote="Gtajisan" revision="android-12.1" />
 
  
 </manifest>
