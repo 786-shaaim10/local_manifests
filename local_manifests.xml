@@ -12,5 +12,8 @@
  <!--kernel -->
  <project path="device/xiaomi/kernel-mithorium" name="twrp_device_xiaomi_kernel-mithorium" remote="Gtajisan" revision="master" />
 
+ <!--mithorium-common -->
+<project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="Gtajisan" revision="master" />
+  
  
 </manifest>
