@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="Gtajisan"
-           fetch="https://github.com/Gtajisan"
-           revision="Ameen" />
+           fetch="https://github.com/Porter-union-rom-updates"
+           revision="Main" />
 
                                    
  <!--Tree -->
- <project path="device/motorola/rhodei" name="android_device_motorola_rhodei" remote="Gtajisan" revision="Ameen" />
+ <project path="device/motorola/rhodei" name="android_device_xiaomi_Mi439_4_19_twrp" remote="Gtajisan" revision="Ameen" />
 
  
 </manifest>
