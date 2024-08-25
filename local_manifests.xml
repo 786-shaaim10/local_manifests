@@ -6,7 +6,7 @@
 
                                    
  <!--Tree -->
- <project path="device/motorola/rhodei" name="android_device_xiaomi_Mi439_4_19_twrp" remote="Gtajisan" revision="Ameen" />
+ <project path="device/xiaomi/Mi439_4_19" name="android_device_xiaomi_Mi439_4_19_twrp" remote="Gtajisan" revision="Ameen" />
 
  
 </manifest>
