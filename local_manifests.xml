@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="Gtajisan"
-           fetch="https://github.com/Porter-union-rom-updates"
-           revision="Main" />
+           fetch="https://github.com/Gtajisan"
+           revision="twrp" />
 
                                    
  <!--Tree -->
- <project path="device/xiaomi/Mi439_4_19" name="android_device_xiaomi_Mi439_4_19_twrp" remote="Gtajisan" revision="Ameen" />
+ <project path="device/google/generic" name="android_device_google_generic" remote="Gtajisan" revision="twrp" />
 
  
 </manifest>
