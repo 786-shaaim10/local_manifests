@@ -13,14 +13,15 @@
            fetch="https://github.com/TheMuppets"
            revision="lineage-21" />
   <remote  name="tavukkdoner"
-           fetch="https://github.com/tavukkdoner"
-           revision="14.0" />
+           fetch="https://github.com/infinity"
+           revision="infinity" />
   
   <!--
   <remote  name="github"
            fetch="https://github.com" />
 -->
  <!-- fix -->
+  <project path="vendor/infinity" name="vendor_infinity" revision="QPR3" remote="infinity" />
   <remove-project path="vendor/qcom/opensource/libfmjni"/>
   <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" remote="Gtajisan" revision="lineage-21.0" />
 
