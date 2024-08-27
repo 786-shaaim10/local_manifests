@@ -3,9 +3,6 @@
   <remote  name="mi-thorium"
            fetch="https://github.com/Mi-Thorium"
            revision="a14/master" />
-  <remote  name="phantom"
-           fetch="https://github.com/PhantomEnigma"
-           revision="a14/master" />
   <remote  name="Gtajisan"
            fetch="https://github.com/Gtajisan"
            revision="lineage-21" />
@@ -25,9 +22,7 @@
   <remove-project path="vendor/lineage" />
   <project path="vendor/lineage" name="android_vendor_crdroid" remote="tavukkdoner" revision="14.0" />
   
-
-  
- <!-- Common -->
+  <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common_LOS"     groups="device" remote="Gtajisan" revision="lineage-21"/>
   <project path="vendor/xiaomi/Mi439" name="proprietary_vendor_xiaomi_Mi439" groups="device" remote="Gtajisan" revision="lineage-21"/>
   
