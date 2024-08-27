@@ -12,9 +12,6 @@
   <remote  name="TheMuppets"
            fetch="https://github.com/TheMuppets"
            revision="lineage-21" />
-  <remote  name="tavukkdoner"
-           fetch="https://github.com/infinity"
-           revision="infinity" />
   
   <!--
   <remote  name="github"
