@@ -9,14 +9,23 @@
   <remote  name="Gtajisan"
            fetch="https://github.com/Gtajisan"
            revision="a14/master" />
+  <remote  name="tavukkdoner"
+           fetch="https://github.com/tavukkdoner"
+           revision="lineage-21" />
   
   <!--
   <remote  name="github"
            fetch="https://github.com" />
--->
- <!-- fix -->
+
+  
+  <!-- fix -->
   <remove-project path="vendor/qcom/opensource/libfmjni"/>
   <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" remote="Gtajisan" revision="lineage-21.0" />
+  
+  <remove-project path="vendor/lineage" />
+  <project path="vendor/lineage" name="android_vendor_crdroid" remote="tavukkdoner" revision="14.0" />
+  
+
   
  <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common_LOS"     groups="device" remote="Gtajisan" revision="lineage-21"/>
@@ -56,7 +65,7 @@
   <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" groups="device" remote="Gtajisan" revision="lineage-21"/>
 
  <!-- Mi439 - Kernel -->
-  <project path="kernel/xiaomi/msm8937" remote="tavukkdoner" name="android_kernel_xiaomi_msm8937_LOS" revision="lineage-21" />
+  <project path="kernel/xiaomi/msm8937" remote="Gtajisan" name="android_kernel_xiaomi_msm8937_LOS" revision="lineage-21" />
 
  <!-- Derp prebuilts -->
   <project path="prebuilts/derp" name="prebuilts_derp" remote="Gtajisan" revision="14" />
