@@ -29,7 +29,7 @@
   
  <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common_LOS"     groups="device" remote="Gtajisan" revision="lineage-21"/>
-  <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_Mi439" groups="device" remote="Gtajisan" revision="lineage-21"/>
+  <project path="vendor/xiaomi/Mi439" name="proprietary_vendor_xiaomi_Mi439" groups="device" remote="Gtajisan" revision="lineage-21"/>
   
  <!-- Hardware -->
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" groups="device" remote="Gtajisan" revision="lineage-21">
