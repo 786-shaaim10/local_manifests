@@ -8,7 +8,7 @@
            revision="a14/master" />
   <remote  name="Gtajisan"
            fetch="https://github.com/Gtajisan"
-           revision="a14/master" />
+           revision="lineage-21" />
   <remote  name="tavukkdoner"
            fetch="https://github.com/tavukkdoner"
            revision="lineage-21" />
