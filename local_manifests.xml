@@ -11,12 +11,9 @@
            revision="a14/master" />
   <remote  name="TheMuppets"
            fetch="https://github.com/TheMuppets"
-    
            revision="lineage-21" />
-
- <remote  name="tavukkdoner"
+  <remote  name="tavukkdoner"
            fetch="https://github.com/tavukkdoner"
-    
            revision="14.0" />
   
   <!--
