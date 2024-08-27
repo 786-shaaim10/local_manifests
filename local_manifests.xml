@@ -11,7 +11,13 @@
            revision="a14/master" />
   <remote  name="TheMuppets"
            fetch="https://github.com/TheMuppets"
+    
            revision="lineage-21" />
+
+ <remote  name="tavukkdoner"
+           fetch="https://github.com/tavukkdoner"
+    
+           revision="14.0" />
   
   <!--
   <remote  name="github"
@@ -20,7 +26,17 @@
  <!-- fix -->
   <remove-project path="vendor/qcom/opensource/libfmjni"/>
   <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" remote="Gtajisan" revision="lineage-21.0" />
+
+<remove-project path="system/core" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="tavukkdoner" revision="14.0" />
+
+  <remove-project path="vendor/lineage" />
+  <project path="vendor/lineage" name="android_vendor_crdroid" remote="tavukkdoner" revision="14.0" />
+
+  <remove-project path="frameworks/native" />
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="tavukkdoner" revision="14.0" />
   
+
  <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="Gtajisan" revision="a14/master"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
