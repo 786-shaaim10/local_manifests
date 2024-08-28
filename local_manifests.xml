@@ -18,7 +18,6 @@
            fetch="https://github.com" />
 -->
  <!-- fix -->
-  <project path="vendor/infinity" name="vendor_infinity" revision="QPR3" remote="infinity" />
   <remove-project path="vendor/qcom/opensource/libfmjni"/>
   <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" remote="Gtajisan" revision="lineage-21.0" />
 
