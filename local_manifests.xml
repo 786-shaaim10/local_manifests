@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+ 
   <remote  name="mi-thorium"
            fetch="https://github.com/Mi-Thorium"
            revision="a14/master" />
@@ -14,7 +15,6 @@
   <remote  name="github"
            fetch="https://github.com" />
 
-  
   <!-- fix -->
   <remove-project path="vendor/qcom/opensource/libfmjni"/>
   <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" remote="Gtajisan" revision="lineage-21.0" />
