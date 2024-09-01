@@ -24,6 +24,10 @@
   <!-- Mi439 new -->
   <project path="device/xiaomi/Mi439"  name="android_device_xiaomi_Mi439_LOS"     groups="device" remote="Gtajisan" revision="Matrixx"/>
   
+  <!-- Hardware new  -->
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" groups="device" remote="LineageOS" revision="lineage-21">
+ 
+  
   <!-- Common new -->
 
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common_LOS" groups="device" remote="Gtajisan" revision="lineage-21"/>
