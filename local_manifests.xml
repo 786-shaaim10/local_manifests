@@ -58,6 +58,7 @@
   <project path="device/xiaomi/Mi439"  name="android_device_xiaomi_Mi439"     groups="device" remote="Gtajisan" revision="infinity-x"/>
   <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" groups="device" remote="mi-thorium"/>
 
+
  <!-- Mi439 - Kernel 4.19 -->
   <project path="device/xiaomi/Mi439_4_19" name="android_device_xiaomi_Mi439_4_19" groups="device" remote="mi-thorium" revision="a11/master"/>
 
@@ -66,7 +67,7 @@
     <linkfile src="drivers" dest="kernel/xiaomi/mithorium-4.19/drivers" />
   </project>
 
-  <project path="kernel/xiaomi/mithorium-4.19/dts/vendor-legacy" name="kernel_devicetree_msm-4.19" groups="dts" revision="dts/master" remote="mi-thorium" >
+  <project path="kernel/xiaomi/mithorium-4.19/dts/vendor-legacy" name="kernel_devicetree_msm-4.19" groups="dts" revision="dts/avc1-testing" remote="tavukkdoner" >
     <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/arch/arm64/boot/dts/vendor-legacy" />
   </project>
   <project path="kernel/xiaomi/mithorium-4.19/dts/xiaomi-msm8937" name="kernel_devicetree_xiaomi-msm8937" groups="dts" revision="dts/mi8937/4.19/master" remote="mi-thorium" >
@@ -101,6 +102,6 @@
 <project path="prebuilts/derp" name="prebuilts_derp" remote="phantom" revision="14" />
   
 <!-- v4x -->
-  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="phantom" revision="v4a" />
+  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="Gtajisan" revision="v4a" />
 
 </manifest>
