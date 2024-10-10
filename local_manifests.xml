@@ -46,7 +46,7 @@
            fetch="https://github.com" />
 -->
   <remove-project path="packages/apps/crDroidSettings" />
-  <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid"  revision="14.0" />
+  <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="Gtajisan"  revision="14.0" />
   <remove-project path="system/memory/lmkd" />
   <project path="system/memory/lmkd" name="lmkd" groups="pdk" remote="tavukkdoner" revision="tmp3082024" />
 
