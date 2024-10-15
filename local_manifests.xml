@@ -17,7 +17,7 @@
            fetch="https://github.com" />
 -->
  <!-- Common -->
-  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="phantom"/>
+  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="Gtajisan"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a11/master"/>
 
@@ -52,10 +52,9 @@
   <project path="hardware/mithorium/media/LA.UM.9.6.4.r2-03700-89xx.QSSI13r2.0/hal" name="android_hardware_qcom_media_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.9.6.4.r2-03700-89xx.QSSI13r2.0"/>
   <project path="hardware/mithorium/display/LA.UM.9.6.4.r2-03700-89xx.QSSI13r2.0/hal" name="android_hardware_qcom_display_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.9.6.4.r2-03700-89xx.QSSI13r2.0"/>
 
-  <!-- Mi439 -->
+ <!-- Mi439 -->
   <project path="device/xiaomi/Mi439"  name="android_device_xiaomi_Mi439"     groups="device" remote="Gtajisan" revision="infinity-x"/>
-  <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" groups="device" remote="mi-thorium" revision="a14/master"/>
-  
+  <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" groups="device" remote="mi-thorium"/>
 
  <!-- Mi439 - Kernel 4.19 -->
   <project path="device/xiaomi/Mi439_4_19" name="android_device_xiaomi_Mi439_4_19" groups="device" remote="mi-thorium" revision="a11/master"/>
@@ -65,7 +64,7 @@
     <linkfile src="drivers" dest="kernel/xiaomi/mithorium-4.19/drivers" />
   </project>
 
-  <project path="kernel/xiaomi/mithorium-4.19/dts/vendor-legacy" name="kernel_devicetree_msm-4.19" groups="dts" revision="dts/avc1-testing" remote="tavukkdoner" >
+  <project path="kernel/xiaomi/mithorium-4.19/dts/vendor-legacy" name="kernel_devicetree_msm-4.19" groups="dts" revision="dts/master" remote="mi-thorium" >
     <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/arch/arm64/boot/dts/vendor-legacy" />
   </project>
   <project path="kernel/xiaomi/mithorium-4.19/dts/xiaomi-msm8937" name="kernel_devicetree_xiaomi-msm8937" groups="dts" revision="dts/mi8937/4.19/master" remote="mi-thorium" >
@@ -97,9 +96,9 @@
   </project>
 
 <!-- Derp prebuilts -->
-<project path="prebuilts/derp" name="prebuilts_derp" remote="phantom" revision="14" />
+<project path="prebuilts/derp" name="prebuilts_derp" remote="Gtajisan" revision="14" />
   
 <!-- v4x -->
-  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="Gtajisan" revision="v4a" />
+  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="phantom" revision="v4a" />
 
 </manifest>
