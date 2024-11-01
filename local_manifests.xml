@@ -8,7 +8,11 @@
            revision="a14/master" />
   <remote  name="Porter-union-rom-updates"
            fetch="https://github.com/Porter-union-rom-updates"
+           revision="14.0" />
+  <remote  name="Gtajisan"
+           fetch="https://github.com/Gtajisan"
            revision="a14/master" />
+  <!--
   <!--
   <remote  name="github"
            fetch="https://github.com" />
