@@ -14,6 +14,12 @@
   <remote  name="los"
            fetch="https://github.com/LineageOS"
            revision="lineage-22.0" />
+  <remote  name="mi-thorium"
+           fetch="https://github.com/Mi-Thorium"
+           revision="a14/master" />
+  <remote  name="los"
+           fetch="https://github.com/LineageOS"
+           revision="lineage-22.0" />
   <!--
   <remote  name="crdroid-gitlab"
            fetch="https://gitlab.com/"
