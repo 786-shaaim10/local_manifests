@@ -6,6 +6,10 @@
   <remote  name="phantom"
            fetch="https://github.com/PhantomEnigma"
            revision="a14/master" />
+  <remote  name="Gtajisan"
+           fetch="https://github.com/Gtajisan"
+           revision="a15/master" />
+  
   <remote  name="Porter-union-rom-updates"
            fetch="https://github.com/Porter-union-rom-updates"
            revision="a14/master" />
@@ -14,7 +18,7 @@
            fetch="https://github.com" />
 -->
  <!-- Common -->
-  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="phantom"/>
+  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="Gtajisan"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a11/master"/>
 
@@ -50,7 +54,7 @@
   <project path="hardware/mithorium/display/LA.UM.9.6.4.r2-03700-89xx.QSSI13r2.0/hal" name="android_hardware_qcom_display_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.9.6.4.r2-03700-89xx.QSSI13r2.0"/>
 
  <!-- Mi439 -->
-  <project path="device/xiaomi/Mi439"  name="android_device_xiaomi_Mi439"     groups="device" remote="Porter-union-rom-updates" revision="a14/crd"/>
+  <project path="device/xiaomi/Mi439"  name="android_device_xiaomi_Mi439"     groups="device" remote="Porter-union-rom-updates" revision="a15/master"/>
   <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" groups="device" remote="mi-thorium"/>
 
  <!-- Mi439 - Kernel 4.19 -->
